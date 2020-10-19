@@ -1,0 +1,146 @@
+\hypertarget{class_ball}{}\section{Ball Class Reference}
+\label{class_ball}\index{Ball@{Ball}}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{class_ball_a86a144d3dad6c953e422e32435923bbb}{Ball}} ()
+\begin{DoxyCompactList}\small\item\em Class of \mbox{\hyperlink{class_ball}{Ball}} \end{DoxyCompactList}\item 
+sf\+::\+Sprite \mbox{\hyperlink{class_ball_ab6c828e025d651a37b2644d72ed0cd7c}{get\+Sprite}} ()
+\begin{DoxyCompactList}\small\item\em Make the private sprite available to the draw() function \end{DoxyCompactList}\item 
+sf\+::\+Vector2f \mbox{\hyperlink{class_ball_a34fbfdd4fc49e594be834addef1b18c8}{get\+Bob\+Position}} ()
+\begin{DoxyCompactList}\small\item\em Returns position of \mbox{\hyperlink{class_ball}{Ball}} \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_ball_ad51eef8304541159f12dee1f1674ec90}{reset}} ()
+\begin{DoxyCompactList}\small\item\em Resets position of \mbox{\hyperlink{class_ball}{Ball}} \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_ball_ab50947921f203f92a3bfcf424247a47f}{move\+Left}} ()
+\begin{DoxyCompactList}\small\item\em Move \mbox{\hyperlink{class_ball}{Ball}} in a specific direction \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_ball_aeac32b787711d2ce4baa41592e384bab}\label{class_ball_aeac32b787711d2ce4baa41592e384bab}} 
+void {\bfseries move\+Right} ()
+\item 
+void \mbox{\hyperlink{class_ball_ab19bf068b3ea5b9468479478880f0831}{stop\+Left}} ()
+\begin{DoxyCompactList}\small\item\em Stops \mbox{\hyperlink{class_ball}{Ball}} in a specific direction \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_ball_a72be807ae8f2b1fb4c97eec8d82dad58}\label{class_ball_a72be807ae8f2b1fb4c97eec8d82dad58}} 
+void {\bfseries stop\+Right} ()
+\item 
+\mbox{\Hypertarget{class_ball_afb36e5574f9fe428048bb8b09506cb72}\label{class_ball_afb36e5574f9fe428048bb8b09506cb72}} 
+void {\bfseries move\+Up} ()
+\item 
+\mbox{\Hypertarget{class_ball_a097ca955e51c809a7b7486ec7f68bcd8}\label{class_ball_a097ca955e51c809a7b7486ec7f68bcd8}} 
+void {\bfseries move\+Down} ()
+\item 
+\mbox{\Hypertarget{class_ball_a68b3312ba4684a43b6da8ec157a2e025}\label{class_ball_a68b3312ba4684a43b6da8ec157a2e025}} 
+void {\bfseries stop\+Up} ()
+\item 
+\mbox{\Hypertarget{class_ball_ad4e5bdbb2d363f3db190cd4f506b3758}\label{class_ball_ad4e5bdbb2d363f3db190cd4f506b3758}} 
+void {\bfseries stop\+Down} ()
+\item 
+void \mbox{\hyperlink{class_ball_abedf04351568d8ae5859c15726eee558}{update}} (float elapsed\+Time)
+\begin{DoxyCompactList}\small\item\em Move \mbox{\hyperlink{class_ball}{Ball}} based on the input this frame, the time elapsed, and the speed \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{Private Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{class_ball_a49175b3cfeb34dc1b7c447c497052e45}\label{class_ball_a49175b3cfeb34dc1b7c447c497052e45}} 
+sf\+::\+Vector2f {\bfseries m\+\_\+\+Position}
+\item 
+\mbox{\Hypertarget{class_ball_a147ce98ebf912fd11a5d882b2c1a44b9}\label{class_ball_a147ce98ebf912fd11a5d882b2c1a44b9}} 
+sf\+::\+Sprite {\bfseries m\+\_\+\+Sprite}
+\item 
+\mbox{\Hypertarget{class_ball_a2569926cbfb87230450abe31a941f764}\label{class_ball_a2569926cbfb87230450abe31a941f764}} 
+sf\+::\+Texture {\bfseries m\+\_\+\+Texture}
+\item 
+\mbox{\Hypertarget{class_ball_a6bdcc637cf2366913c93a3edefe25317}\label{class_ball_a6bdcc637cf2366913c93a3edefe25317}} 
+bool {\bfseries m\+\_\+\+Left\+Pressed}
+\item 
+\mbox{\Hypertarget{class_ball_a9ffb31c73f3051432574e67a5d6eb9a9}\label{class_ball_a9ffb31c73f3051432574e67a5d6eb9a9}} 
+bool {\bfseries m\+\_\+\+Right\+Pressed}
+\item 
+\mbox{\Hypertarget{class_ball_a217feea231defb4343e354ac9d71e8f6}\label{class_ball_a217feea231defb4343e354ac9d71e8f6}} 
+bool {\bfseries m\+\_\+\+Up\+Pressed}
+\item 
+\mbox{\Hypertarget{class_ball_a758d567bda0be6a47d949aa70ee2a9ce}\label{class_ball_a758d567bda0be6a47d949aa70ee2a9ce}} 
+bool {\bfseries m\+\_\+\+Down\+Pressed}
+\item 
+\mbox{\Hypertarget{class_ball_a616abdd96de430aab960d9c42dea986c}\label{class_ball_a616abdd96de430aab960d9c42dea986c}} 
+float {\bfseries m\+\_\+\+Speed}
+\end{DoxyCompactItemize}
+
+
+\subsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{class_ball_a86a144d3dad6c953e422e32435923bbb}\label{class_ball_a86a144d3dad6c953e422e32435923bbb}} 
+\index{Ball@{Ball}!Ball@{Ball}}
+\index{Ball@{Ball}!Ball@{Ball}}
+\subsubsection{\texorpdfstring{Ball()}{Ball()}}
+{\footnotesize\ttfamily Ball\+::\+Ball (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Class of \mbox{\hyperlink{class_ball}{Ball}} 
+
+
+
+\subsection{Member Function Documentation}
+\mbox{\Hypertarget{class_ball_a34fbfdd4fc49e594be834addef1b18c8}\label{class_ball_a34fbfdd4fc49e594be834addef1b18c8}} 
+\index{Ball@{Ball}!getBobPosition@{getBobPosition}}
+\index{getBobPosition@{getBobPosition}!Ball@{Ball}}
+\subsubsection{\texorpdfstring{getBobPosition()}{getBobPosition()}}
+{\footnotesize\ttfamily sf\+::\+Vector2f Ball\+::get\+Bob\+Position (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Returns position of \mbox{\hyperlink{class_ball}{Ball}} 
+
+\mbox{\Hypertarget{class_ball_ab6c828e025d651a37b2644d72ed0cd7c}\label{class_ball_ab6c828e025d651a37b2644d72ed0cd7c}} 
+\index{Ball@{Ball}!getSprite@{getSprite}}
+\index{getSprite@{getSprite}!Ball@{Ball}}
+\subsubsection{\texorpdfstring{getSprite()}{getSprite()}}
+{\footnotesize\ttfamily sf\+::\+Sprite Ball\+::get\+Sprite (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Make the private sprite available to the draw() function 
+
+\mbox{\Hypertarget{class_ball_ab50947921f203f92a3bfcf424247a47f}\label{class_ball_ab50947921f203f92a3bfcf424247a47f}} 
+\index{Ball@{Ball}!moveLeft@{moveLeft}}
+\index{moveLeft@{moveLeft}!Ball@{Ball}}
+\subsubsection{\texorpdfstring{moveLeft()}{moveLeft()}}
+{\footnotesize\ttfamily void Ball\+::move\+Left (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Move \mbox{\hyperlink{class_ball}{Ball}} in a specific direction 
+
+\mbox{\Hypertarget{class_ball_ad51eef8304541159f12dee1f1674ec90}\label{class_ball_ad51eef8304541159f12dee1f1674ec90}} 
+\index{Ball@{Ball}!reset@{reset}}
+\index{reset@{reset}!Ball@{Ball}}
+\subsubsection{\texorpdfstring{reset()}{reset()}}
+{\footnotesize\ttfamily void Ball\+::reset (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Resets position of \mbox{\hyperlink{class_ball}{Ball}} 
+
+\mbox{\Hypertarget{class_ball_ab19bf068b3ea5b9468479478880f0831}\label{class_ball_ab19bf068b3ea5b9468479478880f0831}} 
+\index{Ball@{Ball}!stopLeft@{stopLeft}}
+\index{stopLeft@{stopLeft}!Ball@{Ball}}
+\subsubsection{\texorpdfstring{stopLeft()}{stopLeft()}}
+{\footnotesize\ttfamily void Ball\+::stop\+Left (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Stops \mbox{\hyperlink{class_ball}{Ball}} in a specific direction 
+
+\mbox{\Hypertarget{class_ball_abedf04351568d8ae5859c15726eee558}\label{class_ball_abedf04351568d8ae5859c15726eee558}} 
+\index{Ball@{Ball}!update@{update}}
+\index{update@{update}!Ball@{Ball}}
+\subsubsection{\texorpdfstring{update()}{update()}}
+{\footnotesize\ttfamily void Ball\+::update (\begin{DoxyParamCaption}\item[{float}]{elapsed\+Time }\end{DoxyParamCaption})}
+
+
+
+Move \mbox{\hyperlink{class_ball}{Ball}} based on the input this frame, the time elapsed, and the speed 
+
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+C\+:/\+Users/\+Manjaro/\+Desktop/\+Dodgy\+Ball/\+Jonas Awesome Game/Ball.\+h\item 
+C\+:/\+Users/\+Manjaro/\+Desktop/\+Dodgy\+Ball/\+Jonas Awesome Game/Ball.\+cpp\end{DoxyCompactItemize}

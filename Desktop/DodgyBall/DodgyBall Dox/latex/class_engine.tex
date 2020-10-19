@@ -1,0 +1,80 @@
+\hypertarget{class_engine}{}\section{Engine Class Reference}
+\label{class_engine}\index{Engine@{Engine}}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+void \mbox{\hyperlink{class_engine_a4d8066dd213a03f5420d1bf60f150ca7}{start}} ()
+\begin{DoxyCompactList}\small\item\em Function that keeps track of time and execution of input, updates draw to screen \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{Private Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+void \mbox{\hyperlink{class_engine_ac0b0e464284684e793cec68d41d149b8}{input}} ()
+\begin{DoxyCompactList}\small\item\em Keeps track of input from keyboard to move Character \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_engine_a8e8463b4122e5fec5eb8ce829279f33d}\label{class_engine_a8e8463b4122e5fec5eb8ce829279f33d}} 
+void {\bfseries update} (float dt\+As\+Seconds)
+\item 
+void \mbox{\hyperlink{class_engine_a1b654dc41dfbcb5072147f33142b726e}{draw}} ()
+\begin{DoxyCompactList}\small\item\em Draws on screen, layers based on order of execution \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{Private Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{class_engine_a756f5689a65c509b3c2ebcb33608ab5b}\label{class_engine_a756f5689a65c509b3c2ebcb33608ab5b}} 
+sf\+::\+Render\+Window {\bfseries m\+\_\+\+Window}
+\item 
+\mbox{\Hypertarget{class_engine_a0ef976fb9255fc03a630931e714b24ad}\label{class_engine_a0ef976fb9255fc03a630931e714b24ad}} 
+sf\+::\+Sprite {\bfseries m\+\_\+\+Background\+Sprite}
+\item 
+\mbox{\Hypertarget{class_engine_aabaf3134bc8298a762ee985c6d69be89}\label{class_engine_aabaf3134bc8298a762ee985c6d69be89}} 
+sf\+::\+Texture {\bfseries m\+\_\+\+Background\+Texture}
+\item 
+\mbox{\Hypertarget{class_engine_a73306620329675963a09fb555434fd94}\label{class_engine_a73306620329675963a09fb555434fd94}} 
+\mbox{\hyperlink{class_ball}{Ball}} {\bfseries m\+\_\+\+Ball}
+\item 
+\mbox{\Hypertarget{class_engine_a2ce324eadc114feaa8e49f5000b7d964}\label{class_engine_a2ce324eadc114feaa8e49f5000b7d964}} 
+\mbox{\hyperlink{class_wall}{Wall}} {\bfseries m\+\_\+\+Wall}
+\item 
+\mbox{\Hypertarget{class_engine_a5ef63951ddd6efea2c17760091e86752}\label{class_engine_a5ef63951ddd6efea2c17760091e86752}} 
+\mbox{\hyperlink{class_death_counter}{Death\+Counter}} {\bfseries m\+\_\+deaths}
+\end{DoxyCompactItemize}
+
+
+\subsection{Member Function Documentation}
+\mbox{\Hypertarget{class_engine_a1b654dc41dfbcb5072147f33142b726e}\label{class_engine_a1b654dc41dfbcb5072147f33142b726e}} 
+\index{Engine@{Engine}!draw@{draw}}
+\index{draw@{draw}!Engine@{Engine}}
+\subsubsection{\texorpdfstring{draw()}{draw()}}
+{\footnotesize\ttfamily void Engine\+::draw (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Draws on screen, layers based on order of execution 
+
+\mbox{\Hypertarget{class_engine_ac0b0e464284684e793cec68d41d149b8}\label{class_engine_ac0b0e464284684e793cec68d41d149b8}} 
+\index{Engine@{Engine}!input@{input}}
+\index{input@{input}!Engine@{Engine}}
+\subsubsection{\texorpdfstring{input()}{input()}}
+{\footnotesize\ttfamily void Engine\+::input (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Keeps track of input from keyboard to move Character 
+
+\mbox{\Hypertarget{class_engine_a4d8066dd213a03f5420d1bf60f150ca7}\label{class_engine_a4d8066dd213a03f5420d1bf60f150ca7}} 
+\index{Engine@{Engine}!start@{start}}
+\index{start@{start}!Engine@{Engine}}
+\subsubsection{\texorpdfstring{start()}{start()}}
+{\footnotesize\ttfamily void Engine\+::start (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Function that keeps track of time and execution of input, updates draw to screen 
+
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+C\+:/\+Users/\+Manjaro/\+Desktop/\+Dodgy\+Ball/\+Jonas Awesome Game/Engine.\+h\item 
+C\+:/\+Users/\+Manjaro/\+Desktop/\+Dodgy\+Ball/\+Jonas Awesome Game/Draw.\+cpp\item 
+C\+:/\+Users/\+Manjaro/\+Desktop/\+Dodgy\+Ball/\+Jonas Awesome Game/Engine.\+cpp\item 
+C\+:/\+Users/\+Manjaro/\+Desktop/\+Dodgy\+Ball/\+Jonas Awesome Game/Input.\+cpp\item 
+C\+:/\+Users/\+Manjaro/\+Desktop/\+Dodgy\+Ball/\+Jonas Awesome Game/update.\+cpp\end{DoxyCompactItemize}
